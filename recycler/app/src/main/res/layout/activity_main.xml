@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".activities.MainActivity">
+
+
+    <Button
+            android:text="Show Toast"
+            android:layout_width="145dp"
+            android:layout_height="64dp" android:id="@+id/btnShowToast" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="588dp" android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" android:layout_marginRight="139dp" android:layout_marginEnd="139dp"/>
+
+    <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" android:id="@+id/sendMessage" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="388dp"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:gravity="start|top"
+            android:hint="Enter Your Message"
+            android:ems="10"
+            android:id="@+id/editTextMessage" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="494dp"/>
+    <Button
+            android:text="Share To Other Apps"
+            android:id="@+id/btnShareToOtherApps"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="326dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:text="Recycler view demo"
+            android:layout_width="match_parent"
+            android:layout_height="59dp" android:id="@+id/btnRecyclerView"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="240dp"/>
+</RelativeLayout>
